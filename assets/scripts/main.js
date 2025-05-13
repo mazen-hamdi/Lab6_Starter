@@ -34,7 +34,7 @@ function getRecipesFromStorage() {
  * @param {Array<Object>} recipes An array of recipes
  */
 function addRecipesToDocument(recipes) {
-	function addRecipesToDocument(recipes) {
+	
   const main = document.querySelector('main');
   recipes.forEach((recipe) => {
     const card = document.createElement('recipe-card');
@@ -46,7 +46,7 @@ function addRecipesToDocument(recipes) {
 	//            create a <recipe-card> element for each one, and populate
 	//            each <recipe-card> with that recipe data using element.data = ...
 	//            Append each element to <main>
-}
+
 
 /**
  * Takes in an array of recipes, converts it to a string, and then
