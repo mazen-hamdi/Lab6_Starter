@@ -21,10 +21,10 @@ function init() {
  * @returns {Array<Object>} An array of recipes found in localStorage
  */
 function getRecipesFromStorage() {
-	function getRecipesFromStorage() {
+
   return JSON.parse(localStorage.getItem('recipes')) || [];
 }
-}
+
 
 /**
  * Takes in an array of recipes and for each recipe creates a
